@@ -1,0 +1,169 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
+
+
+header{background-color: yellow;
+}
+
+li .button {
+  margin-top: 11px;
+}
+
+header h1 {
+  color: black;
+}
+.inner-grid{
+  display: grid;
+  place-items: center;
+}
+.inner-grid * {
+grid-column: 1;
+grid-row: 1;
+}
+.inner-grid h3 {
+  padding-top: 4em;
+}
+
+header img{
+  place items: right;
+  align-content: right;
+  height: 5em;
+
+}
+header section {
+  background-color:yellow;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+.menu-text{
+  font-size: 1em;
+}
+header ul li a {
+  color: black;
+  font-size: 0.5em;}
+h1{
+   font-family: 'Shippori Antique B1', sans-serif;
+   place items: center;
+  align-content: center;
+  text-align: center;
+}
+
+h1 img {
+  text-align: center;
+  width: 100em;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0rem rgba(0, 0, 0.2);
+}
+section {
+  align-content: center;
+  text-align: center;
+  background-color:#FFF9A3;
+
+
+}
+h1{
+  color: black;
+}
+h2{
+   font-family: 'Shippori Antique B1', sans-serif;
+   place items: center;
+  align-content: center;
+  text-align: center;
+}
+h3 {
+  font-family: 'Shippori Antique B1', sans-serif;
+  color: black;
+  text-align: center;
+}
+body {
+  background-color: #FFF9A3;
+}
+nav ul{
+  text-align: center;
+color: black;}
+  
+ul li {list-style-type: none;
+display: inline-block;
+color: black;
+margin: 0em 1.5em 0em 1em;
+font-size: 2rem;
+font-weight: 400;
+margin-left: 2px;}
+
+section .cell{text-align: center;
+  align-content: center;
+}
+.reserve{text-align: center;
+align-content: center;
+}
+
+.reserve h1 {
+  color: black;
+  padding-bottom: 4.5em
+}
+.reserve .button {
+  margin-top: 5.5em;
+  padding: 0.5em 5em 0.5em 5em;
+  border: black;
+  border-style: solid;
+}
+
+footer {
+   font-family: 'Shippori Antique B1', sans-serif;
+  padding: 0em 5em 0em 0em;
+  background-color: black;
+}
+
+footer .social{
+
+}
+
+.button {
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  align-content: center;
+   border: black;
+  border-style: solid;
+}
+.button:hover{
+  background-color: black;
+}
+.social img{
+  height: 7em;
+  padding-bottom: 3.5em;
+}
+footer {
+  background-color: black;
+}
+footer img {
+  height: 10em;
+  right: 40px;
+}
+footer ul li a{
+  color: white;
+  text-align: right;
+  font-size: 1.5rem;
+}
